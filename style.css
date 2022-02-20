@@ -1,5 +1,5 @@
 /*BEGIN PS4 Controller Styling*/
-.controller.ds4 {
+.controller.ds4.white {
     background: url(base.png);
     height: 598px;
     width: 806px;
@@ -7,45 +7,45 @@
         margin-top: -280px;*/
 }
 
-.ds4.disconnected {
+.ds4.white.disconnected {
     background: url(disconnected.png);
 }
 
-.ds4.disconnected div {
+.ds4.white.disconnected div {
     display: none;
 }
 
-.ds4 .triggers {
+.ds4.white .triggers {
     width: 588px;
     height: 90px;
     position: absolute;
     left: 109px;
 }
 
-.ds4 .trigger {
+.ds4.white .trigger {
     width: 99px;
     height: 100%;
     background: url(triggers.png);
     opacity: 0;
 }
 
-.ds4 .trigger.left {
+.ds4.white .trigger.left {
     float: left;
 }
 
-.ds4 .trigger.right {
+.ds4.white .trigger.right {
     float: right;
     background-position-x: 99px;
 }
 
-.ds4 .bumper {
+.ds4.white .bumper {
     width: 99px;
     height: 23px;
     background: url(bumper.png) no-repeat;
     opacity: 0;
 }
 
-.ds4 .bumpers {
+.ds4.white .bumpers {
     position: absolute;
     width: 588px;
     height: 23px;
@@ -53,22 +53,22 @@
     top: 94px;
 }
 
-.ds4 .bumper.pressed {
+.ds4.white .bumper.pressed {
     opacity: 1;
 }
 
-.ds4 .bumper.left {
+.ds4.white .bumper.left {
     /* -webkit-transform: rotateY(180deg); */
     /* transform: rotateY(180deg); */
     float: left;
 }
 
-.ds4 .bumper.right {
+.ds4.white .bumper.right {
     float: right;
     transform: rotateY(180deg);
 }
 
-.ds4 .touchpad {
+.ds4.white .touchpad {
     width: 262px;
     height: 151px;
     position: absolute;
@@ -76,11 +76,11 @@
     top: 122px;
 }
 
-.ds4 .touchpad.pressed {
+.ds4.white .touchpad.pressed {
     background: url(touchpad.png) no-repeat center;
 }
 
-.ds4 .meta {
+.ds4.white .meta {
     width: 42px;
     height: 42px;
     position: absolute;
@@ -88,12 +88,12 @@
     bottom: 216px;
 }
 
-.ds4 .meta.pressed {
+.ds4.white .meta.pressed {
     background: url(meta.png) no-repeat center;
 }
 
 /*Not needed, but I like keeping them here for posterity*/
-/*.ds4 .quadrant{
+/*.ds4.white .quadrant{
 position: absolute;
 background: url(ps4-assets/player-n.svgz);
 height: 17px;
@@ -101,19 +101,19 @@ width: 111px;
 top: 140px;
 left: 240px;
 }
-.ds4 .p0{
+.ds4.white .p0{
 background-position: 0 -6px;
 }
-.ds4 .p1{
+.ds4.white .p1{
 background-position: 0 -28px;
 }
-.ds4 .p2{
+.ds4.white .p2{
 background-position: 0 -49px;
 }
-.ds4 .p3{
+.ds4.white .p3{
 background-position: 0 -70px;
 }*/
-.ds4 .arrows {
+.ds4.white .arrows {
     position: absolute;
     width: 352px;
     height: 46px;
@@ -121,31 +121,31 @@ background-position: 0 -70px;
     left: 227px;
 }
 
-.ds4 .back, .ds4 .start {
+.ds4.white .back, .ds4.white .start {
     background: url(start.png);
     width: 28px;
     height: 46px;
     opacity: 0;
 }
 
-.ds4 .back.pressed, .ds4 .start.pressed {
+.ds4.white .back.pressed, .ds4.white .start.pressed {
     /* background-position-y: -21px; */
     /* margin-top: 2px; */
     opacity: 1;
 }
 
-.ds4 .back {
+.ds4.white .back {
     float: left;
     /* width: 28px; */
 }
 
-.ds4 .start {
+.ds4.white .start {
     float: right;
     /* width: 28px; */
     background-position: 28px 0;
 }
 
-.ds4 .abxy {
+.ds4.white .abxy {
     position: absolute;
     width: 170px;
     height: 171px;
@@ -153,41 +153,41 @@ background-position: 0 -70px;
     left: 567px;
 }
 
-.ds4 .button {
+.ds4.white .button {
     position: absolute;
     width: 55px;
     height: 55px;
     background: url(face.png);
 }
 
-.ds4 .button.pressed {
+.ds4.white .button.pressed {
     background-position-y: 55px;
     /* margin-top: 5px; */
 }
 
-.ds4 .a {
+.ds4.white .a {
     background-position: 0 0;
     bottom: 0;
     left: 58px;
 }
 
-.ds4 .b {
+.ds4.white .b {
     background-position: -57px 0;
     top: 58px;
     right: 0px;
 }
 
-.ds4 .x {
+.ds4.white .x {
     background-position: -113px 0;
     top: 58px;
 }
 
-.ds4 .y {
+.ds4.white .y {
     background-position: 55px 0;
     left: 58px;
 }
 
-.ds4 .sticks {
+.ds4.white .sticks {
     position: absolute;
     width: 361px;
     height: 105px;
@@ -195,32 +195,32 @@ background-position: 0 -70px;
     left: 228px;
 }
 
-.ds4 .stick {
+.ds4.white .stick {
     position: absolute;
     background: url(sticks.png);
     height: 94px;
     width: 94px;
 }
 
-.ds4 .stick.pressed.left {
+.ds4.white .stick.pressed.left {
     background-position-x: -96px;
 }
 
-.ds4 .stick.pressed.right {
+.ds4.white .stick.pressed.right {
     background-position-x: -192px;
 }
 
-.ds4 .stick.left {
+.ds4.white .stick.left {
     top: 0;
     left: 0;
 }
 
-.ds4 .stick.right {
+.ds4.white .stick.right {
     top: calc(100% - 105px);
     left: calc(100% - 105px);
 }
 
-.ds4 .dpad {
+.ds4.white .dpad {
     position: absolute;
     width: 125px;
     height: 126px;
@@ -228,51 +228,51 @@ background-position: 0 -70px;
     left: 92px;
 }
 
-.ds4 .face {
+.ds4.white .face {
     background: url(dpad.png);
     position: absolute;
 }
 
-.ds4 .face.up, .ds4 .face.down {
+.ds4.white .face.up, .ds4.white .face.down {
     width: 36px;
     height: 52px;
 }
 
-.ds4 .face.left, .ds4 .face.right {
+.ds4.white .face.left, .ds4.white .face.right {
     width: 52px;
     height: 36px;
 }
 
-.ds4 .face.up {
+.ds4.white .face.up {
     left: 44px;
     top: 0;
     background-position: -37px 0px;
 }
 
-.ds4 .face.down {
+.ds4.white .face.down {
     left: 44px;
     bottom: 0;
     background-position: 0px 0;
 }
 
-.ds4 .face.left {
+.ds4.white .face.left {
     top: 45px;
     left: 0;
     background-position: 104px 0;
 }
 
-.ds4 .face.right {
+.ds4.white .face.right {
     top: 45px;
     right: 0px;
     background-position: 52px 0;
 }
 
-.ds4 .face.pressed {
+.ds4.white .face.pressed {
     /* margin-top: 5px; */
     background-position-y: 52px;
 }
 
-.ds4.half {
+.ds4.white.half {
     margin-top: -300px;
 }
 
